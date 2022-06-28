@@ -1,0 +1,15 @@
+{
+  "name": "destiny-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tailwatch": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

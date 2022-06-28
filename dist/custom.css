@@ -1,0 +1,17 @@
+.treebg {
+  background: url("../img/basic.png") no-repeat center center/cover;
+}
+
+.fadeout {
+  animation-name: fadeout;
+  animation-duration: 0.9s;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
