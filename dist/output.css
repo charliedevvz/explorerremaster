@@ -784,6 +784,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 1.5rem;
   }
 
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:ml-4 {
     margin-left: 1rem;
   }
@@ -804,6 +809,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-10\/12 {
     width: 83.333333%;
+  }
+
+  .lg\:w-6\/12 {
+    width: 50%;
   }
 
   .lg\:p-36 {
@@ -911,6 +920,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:h-screen {
+    height: 100vh;
+  }
+
   .\32xl\:w-12 {
     width: 3rem;
   }
